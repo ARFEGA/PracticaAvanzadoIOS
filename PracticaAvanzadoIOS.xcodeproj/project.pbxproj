@@ -13,7 +13,9 @@
 		4748B1A9207D0B7200DD550F /* NoteBookVCr+Delegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4748B1A8207D0B7200DD550F /* NoteBookVCr+Delegates.swift */; };
 		4748B1AB207D0EA700DD550F /* NotebookVC+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4748B1AA207D0EA700DD550F /* NotebookVC+TableView.swift */; };
 		4748B1B0207D27B900DD550F /* CreateNewNoteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4748B1AF207D27B900DD550F /* CreateNewNoteVC.swift */; };
-		477E7FD3207BDCAB009E337B /* NoteBookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477E7FD2207BDCAB009E337B /* NoteBookCell.swift */; };
+		474B0FCB208D3FD200F6712F /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B0FCA208D3FD200F6712F /* CoreDataManager.swift */; };
+		474B0FCD208D3FEF00F6712F /* NoteBookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B0FCC208D3FEF00F6712F /* NoteBookCell.swift */; };
+		474B0FD0208D403300F6712F /* EverPobre.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 474B0FCE208D403200F6712F /* EverPobre.xcdatamodeld */; };
 		47A991742080120E007183C2 /* NoteBook+CustomHeaderInSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A991732080120E007183C2 /* NoteBook+CustomHeaderInSection.swift */; };
 		47DF74EF20850D7800AF3747 /* UIButton+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DF74EE20850D7800AF3747 /* UIButton+Additions.swift */; };
 		47DF74F1208512F300AF3747 /* NoteBook+Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DF74F0208512F300AF3747 /* NoteBook+Notifications.swift */; };
@@ -25,9 +27,6 @@
 		47ECB9C42072A94A009768DB /* UIDevice+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ECB9C32072A94A009768DB /* UIDevice+Additions.swift */; };
 		47ECBA792077EFB3009768DB /* UIColor+theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ECBA782077EFB3009768DB /* UIColor+theme.swift */; };
 		47ECBA7B2077FA48009768DB /* CreateNewNoteBookVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ECBA7A2077FA48009768DB /* CreateNewNoteBookVC.swift */; };
-		47ECBA7D2078124B009768DB /* NoteBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ECBA7C2078124B009768DB /* NoteBook.swift */; };
-		47ECBA802078D103009768DB /* EverPobre.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 47ECBA7E2078D103009768DB /* EverPobre.xcdatamodeld */; };
-		47ECBA862078D423009768DB /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ECBA852078D423009768DB /* CoreDataManager.swift */; };
 		47FF08502087ABB300D9F5E3 /* CreateNewNoteVC+CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FF084F2087ABB300D9F5E3 /* CreateNewNoteVC+CreateView.swift */; };
 		47FF08522087ACD000D9F5E3 /* UIDatePicker+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FF08512087ACD000D9F5E3 /* UIDatePicker+Additions.swift */; };
 		47FF085E2087DE1D00D9F5E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47FF085D2087DE1D00D9F5E3 /* Assets.xcassets */; };
@@ -40,7 +39,9 @@
 		4748B1A8207D0B7200DD550F /* NoteBookVCr+Delegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteBookVCr+Delegates.swift"; sourceTree = "<group>"; };
 		4748B1AA207D0EA700DD550F /* NotebookVC+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotebookVC+TableView.swift"; sourceTree = "<group>"; };
 		4748B1AF207D27B900DD550F /* CreateNewNoteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewNoteVC.swift; sourceTree = "<group>"; };
-		477E7FD2207BDCAB009E337B /* NoteBookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NoteBookCell.swift; path = ../../NoteBookCell.swift; sourceTree = "<group>"; };
+		474B0FCA208D3FD200F6712F /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataManager.swift; path = PracticaAvanzadoIOS/Model/CoreData/CoreDataManager.swift; sourceTree = SOURCE_ROOT; };
+		474B0FCC208D3FEF00F6712F /* NoteBookCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteBookCell.swift; sourceTree = "<group>"; };
+		474B0FCF208D403200F6712F /* EverPobre.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EverPobre.xcdatamodel; sourceTree = "<group>"; };
 		47A991732080120E007183C2 /* NoteBook+CustomHeaderInSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteBook+CustomHeaderInSection.swift"; sourceTree = "<group>"; };
 		47DF74EE20850D7800AF3747 /* UIButton+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Additions.swift"; sourceTree = "<group>"; };
 		47DF74F0208512F300AF3747 /* NoteBook+Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteBook+Notifications.swift"; sourceTree = "<group>"; };
@@ -54,9 +55,6 @@
 		47ECB9C32072A94A009768DB /* UIDevice+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Additions.swift"; sourceTree = "<group>"; };
 		47ECBA782077EFB3009768DB /* UIColor+theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+theme.swift"; sourceTree = "<group>"; };
 		47ECBA7A2077FA48009768DB /* CreateNewNoteBookVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewNoteBookVC.swift; sourceTree = "<group>"; };
-		47ECBA7C2078124B009768DB /* NoteBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteBook.swift; sourceTree = "<group>"; };
-		47ECBA7F2078D103009768DB /* EverPobre.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EverPobre.xcdatamodel; sourceTree = "<group>"; };
-		47ECBA852078D423009768DB /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		47FF084F2087ABB300D9F5E3 /* CreateNewNoteVC+CreateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CreateNewNoteVC+CreateView.swift"; sourceTree = "<group>"; };
 		47FF08512087ACD000D9F5E3 /* UIDatePicker+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDatePicker+Additions.swift"; sourceTree = "<group>"; };
 		47FF085D2087DE1D00D9F5E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -77,7 +75,7 @@
 		4735A42A207E705D00637F47 /* Notebook */ = {
 			isa = PBXGroup;
 			children = (
-				477E7FD2207BDCAB009E337B /* NoteBookCell.swift */,
+				474B0FCC208D3FEF00F6712F /* NoteBookCell.swift */,
 				47ECB9BD2072A2AA009768DB /* NoteBookVC.swift */,
 				4748B1AA207D0EA700DD550F /* NotebookVC+TableView.swift */,
 				47ECBA7A2077FA48009768DB /* CreateNewNoteBookVC.swift */,
@@ -96,6 +94,15 @@
 				473447B52086144F00B2A7A7 /* NoteVC.swift */,
 			);
 			path = Note;
+			sourceTree = "<group>";
+		};
+		474B0FC9208D3F4600F6712F /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				474B0FCE208D403200F6712F /* EverPobre.xcdatamodeld */,
+				474B0FCA208D3FD200F6712F /* CoreDataManager.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 		47ECB99F2072A268009768DB = {
@@ -133,8 +140,7 @@
 		47ECBA812078D10E009768DB /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				47ECBA842078D1F0009768DB /* CoreData */,
-				47ECBA7C2078124B009768DB /* NoteBook.swift */,
+				474B0FC9208D3F4600F6712F /* CoreData */,
 			);
 			name = Model;
 			path = "New Group";
@@ -161,15 +167,6 @@
 				47FF08512087ACD000D9F5E3 /* UIDatePicker+Additions.swift */,
 			);
 			path = Extensiones;
-			sourceTree = "<group>";
-		};
-		47ECBA842078D1F0009768DB /* CoreData */ = {
-			isa = PBXGroup;
-			children = (
-				47ECBA7E2078D103009768DB /* EverPobre.xcdatamodeld */,
-				47ECBA852078D423009768DB /* CoreDataManager.swift */,
-			);
-			path = CoreData;
 			sourceTree = "<group>";
 		};
 		47FF08832089F82700D9F5E3 /* Frameworks */ = {
@@ -264,10 +261,11 @@
 				473447B62086144F00B2A7A7 /* NoteVC.swift in Sources */,
 				47A991742080120E007183C2 /* NoteBook+CustomHeaderInSection.swift in Sources */,
 				4748B1B0207D27B900DD550F /* CreateNewNoteVC.swift in Sources */,
+				474B0FD0208D403300F6712F /* EverPobre.xcdatamodeld in Sources */,
 				47ECB9C42072A94A009768DB /* UIDevice+Additions.swift in Sources */,
 				47ECB9AC2072A268009768DB /* AppDelegate.swift in Sources */,
-				47ECBA7D2078124B009768DB /* NoteBook.swift in Sources */,
-				477E7FD3207BDCAB009E337B /* NoteBookCell.swift in Sources */,
+				474B0FCB208D3FD200F6712F /* CoreDataManager.swift in Sources */,
+				474B0FCD208D3FEF00F6712F /* NoteBookCell.swift in Sources */,
 				47DF74EF20850D7800AF3747 /* UIButton+Additions.swift in Sources */,
 				4748B1A9207D0B7200DD550F /* NoteBookVCr+Delegates.swift in Sources */,
 				47ECB9C22072A750009768DB /* UIViewController+Additions.swift in Sources */,
@@ -276,8 +274,6 @@
 				47FF08522087ACD000D9F5E3 /* UIDatePicker+Additions.swift in Sources */,
 				47ECB9BE2072A2AA009768DB /* NoteBookVC.swift in Sources */,
 				4748B1AB207D0EA700DD550F /* NotebookVC+TableView.swift in Sources */,
-				47ECBA802078D103009768DB /* EverPobre.xcdatamodeld in Sources */,
-				47ECBA862078D423009768DB /* CoreDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,13 +466,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		47ECBA7E2078D103009768DB /* EverPobre.xcdatamodeld */ = {
+		474B0FCE208D403200F6712F /* EverPobre.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				47ECBA7F2078D103009768DB /* EverPobre.xcdatamodel */,
+				474B0FCF208D403200F6712F /* EverPobre.xcdatamodel */,
 			);
-			currentVersion = 47ECBA7F2078D103009768DB /* EverPobre.xcdatamodel */;
-			path = EverPobre.xcdatamodeld;
+			currentVersion = 474B0FCF208D403200F6712F /* EverPobre.xcdatamodel */;
+			name = EverPobre.xcdatamodeld;
+			path = ../../Model/CoreData/EverPobre.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
