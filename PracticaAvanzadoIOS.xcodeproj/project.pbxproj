@@ -16,6 +16,8 @@
 		474B0FCB208D3FD200F6712F /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B0FCA208D3FD200F6712F /* CoreDataManager.swift */; };
 		474B0FCD208D3FEF00F6712F /* NoteBookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B0FCC208D3FEF00F6712F /* NoteBookCell.swift */; };
 		474B0FD0208D403300F6712F /* EverPobre.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 474B0FCE208D403200F6712F /* EverPobre.xcdatamodeld */; };
+		474B0FD3208D448100F6712F /* 1_VideoDemostracionFuncionamientoPractica.mov in Resources */ = {isa = PBXBuildFile; fileRef = 474B0FD2208D448100F6712F /* 1_VideoDemostracionFuncionamientoPractica.mov */; };
+		474B0FD5208D45AB00F6712F /* 2_VideoDemostracionFuncionamientoPractica.mov in Resources */ = {isa = PBXBuildFile; fileRef = 474B0FD4208D45AB00F6712F /* 2_VideoDemostracionFuncionamientoPractica.mov */; };
 		47A991742080120E007183C2 /* NoteBook+CustomHeaderInSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A991732080120E007183C2 /* NoteBook+CustomHeaderInSection.swift */; };
 		47DF74EF20850D7800AF3747 /* UIButton+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DF74EE20850D7800AF3747 /* UIButton+Additions.swift */; };
 		47DF74F1208512F300AF3747 /* NoteBook+Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DF74F0208512F300AF3747 /* NoteBook+Notifications.swift */; };
@@ -42,6 +44,8 @@
 		474B0FCA208D3FD200F6712F /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataManager.swift; path = PracticaAvanzadoIOS/Model/CoreData/CoreDataManager.swift; sourceTree = SOURCE_ROOT; };
 		474B0FCC208D3FEF00F6712F /* NoteBookCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteBookCell.swift; sourceTree = "<group>"; };
 		474B0FCF208D403200F6712F /* EverPobre.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EverPobre.xcdatamodel; sourceTree = "<group>"; };
+		474B0FD2208D448100F6712F /* 1_VideoDemostracionFuncionamientoPractica.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 1_VideoDemostracionFuncionamientoPractica.mov; sourceTree = "<group>"; };
+		474B0FD4208D45AB00F6712F /* 2_VideoDemostracionFuncionamientoPractica.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 2_VideoDemostracionFuncionamientoPractica.mov; sourceTree = "<group>"; };
 		47A991732080120E007183C2 /* NoteBook+CustomHeaderInSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteBook+CustomHeaderInSection.swift"; sourceTree = "<group>"; };
 		47DF74EE20850D7800AF3747 /* UIButton+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Additions.swift"; sourceTree = "<group>"; };
 		47DF74F0208512F300AF3747 /* NoteBook+Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteBook+Notifications.swift"; sourceTree = "<group>"; };
@@ -105,6 +109,15 @@
 			path = CoreData;
 			sourceTree = "<group>";
 		};
+		474B0FD1208D448100F6712F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				474B0FD4208D45AB00F6712F /* 2_VideoDemostracionFuncionamientoPractica.mov */,
+				474B0FD2208D448100F6712F /* 1_VideoDemostracionFuncionamientoPractica.mov */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		47ECB99F2072A268009768DB = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +138,7 @@
 		47ECB9AA2072A268009768DB /* PracticaAvanzadoIOS */ = {
 			isa = PBXGroup;
 			children = (
+				474B0FD1208D448100F6712F /* Resources */,
 				47ECBA812078D10E009768DB /* Model */,
 				47ECBA832078D1B3009768DB /* Extensiones */,
 				47ECBA822078D129009768DB /* Controller */,
@@ -241,9 +255,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				474B0FD3208D448100F6712F /* 1_VideoDemostracionFuncionamientoPractica.mov in Resources */,
 				47FF085E2087DE1D00D9F5E3 /* Assets.xcassets in Resources */,
 				47ECB9B62072A268009768DB /* LaunchScreen.storyboard in Resources */,
 				47ECB9B12072A268009768DB /* Main.storyboard in Resources */,
+				474B0FD5208D45AB00F6712F /* 2_VideoDemostracionFuncionamientoPractica.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
