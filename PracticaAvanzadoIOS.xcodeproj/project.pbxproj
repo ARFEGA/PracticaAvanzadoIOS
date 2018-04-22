@@ -23,7 +23,6 @@
 		47ECB9BE2072A2AA009768DB /* NoteBookVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ECB9BD2072A2AA009768DB /* NoteBookVC.swift */; };
 		47ECB9C22072A750009768DB /* UIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ECB9C12072A750009768DB /* UIViewController+Additions.swift */; };
 		47ECB9C42072A94A009768DB /* UIDevice+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ECB9C32072A94A009768DB /* UIDevice+Additions.swift */; };
-		47ECB9C82072E49B009768DB /* arquitecturaCoreData.png in Resources */ = {isa = PBXBuildFile; fileRef = 47ECB9C72072E49B009768DB /* arquitecturaCoreData.png */; };
 		47ECBA792077EFB3009768DB /* UIColor+theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ECBA782077EFB3009768DB /* UIColor+theme.swift */; };
 		47ECBA7B2077FA48009768DB /* CreateNewNoteBookVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ECBA7A2077FA48009768DB /* CreateNewNoteBookVC.swift */; };
 		47ECBA7D2078124B009768DB /* NoteBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ECBA7C2078124B009768DB /* NoteBook.swift */; };
@@ -53,7 +52,6 @@
 		47ECB9BD2072A2AA009768DB /* NoteBookVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteBookVC.swift; sourceTree = "<group>"; };
 		47ECB9C12072A750009768DB /* UIViewController+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Additions.swift"; sourceTree = "<group>"; };
 		47ECB9C32072A94A009768DB /* UIDevice+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Additions.swift"; sourceTree = "<group>"; };
-		47ECB9C72072E49B009768DB /* arquitecturaCoreData.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arquitecturaCoreData.png; sourceTree = "<group>"; };
 		47ECBA782077EFB3009768DB /* UIColor+theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+theme.swift"; sourceTree = "<group>"; };
 		47ECBA7A2077FA48009768DB /* CreateNewNoteBookVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewNoteBookVC.swift; sourceTree = "<group>"; };
 		47ECBA7C2078124B009768DB /* NoteBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteBook.swift; sourceTree = "<group>"; };
@@ -126,7 +124,6 @@
 				47ECB9AB2072A268009768DB /* AppDelegate.swift */,
 				47ECB9AF2072A268009768DB /* Main.storyboard */,
 				47FF085D2087DE1D00D9F5E3 /* Assets.xcassets */,
-				47ECB9C72072E49B009768DB /* arquitecturaCoreData.png */,
 				47ECB9B42072A268009768DB /* LaunchScreen.storyboard */,
 				47ECB9B72072A268009768DB /* Info.plist */,
 			);
@@ -248,7 +245,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				47FF085E2087DE1D00D9F5E3 /* Assets.xcassets in Resources */,
-				47ECB9C82072E49B009768DB /* arquitecturaCoreData.png in Resources */,
 				47ECB9B62072A268009768DB /* LaunchScreen.storyboard in Resources */,
 				47ECB9B12072A268009768DB /* Main.storyboard in Resources */,
 			);
